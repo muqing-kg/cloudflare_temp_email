@@ -2,7 +2,7 @@ name: Deploy Frontend
 
 on:
   workflow_run:
-    workflows: [Upstream Sync]
+    workflows: [Upstream Sync, Upstream Sync Daily]
     types: [completed]
   push:
     tags:
